@@ -1,0 +1,29 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 56px;
+    padding: 0 24px;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+}
